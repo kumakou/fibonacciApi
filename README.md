@@ -36,11 +36,19 @@ https://dry-depths-57184.herokuapp.com/fib?n=99
 
 ## ソースコードの構成
 ├── bin 
+
 │   └── fibonacciApi //ビルドされたファイル
+
 ├── controller.go　　// コントローラー
+
 ├── go.mod
+
 ├── go.sum
+
 ├── main.go　　　　//main
+
 ├── main_test.go　//テスト
+
 └── router.go　//　ルーティング
+
 
