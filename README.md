@@ -13,7 +13,7 @@ https://dry-depths-57184.herokuapp.com/fib
 Get
 
 ### クエリパラメーター
-n 正の数(0 < n)　1で先頭のフィボナッチ数を指定する
+n 正の数(0 < n)で先頭のフィボナッチ数を指定する
 
 ### リクエスト例
 https://dry-depths-57184.herokuapp.com/fib?n=99
