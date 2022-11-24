@@ -14,8 +14,8 @@ func getting(c *gin.Context) {
 	i, err := strconv.Atoi(requestParameter)
 	if err != nil || i<=0 {
 		c.JSON(http.StatusNotFound, gin.H{
-			"status": 400,
-			"message" : "please set positive number",
+			"status": 404,
+			"message" : "Please set positive number in request parameter",
 		})
 		return
 	}
@@ -27,7 +27,7 @@ func getting(c *gin.Context) {
 
 func noroot (c *gin.Context){
 	c.JSON(http.StatusNotFound, gin.H{
-			"status": 400,
+			"status": 404,
 			"message" : "no route",
 	})
 }
