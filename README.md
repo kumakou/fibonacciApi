@@ -25,11 +25,11 @@ https://dry-depths-57184.herokuapp.com/fib?n=99
 {"result":218922995834555169026}
 ```
 
-400　指定したパスがない時
+404　指定したパスがない時
 ```json
 {"message":"no route","status":400}
 ```
-400　クエリパラメーターが間違っているとき（マイナスの値、数値ではない）
+404　クエリパラメーターが間違っているとき（マイナスの値、数値ではない）
 ```json
 {"message":"please set positive number","status":400}
 ```
